@@ -1,0 +1,51 @@
+.snake-game {
+    position: relative;
+    width: 400px; /* Ajusta el tamaño del tablero según tus necesidades */
+    height: 400px;
+    border: 2px solid #333; /* Color del borde del tablero */
+  }
+  
+  .cell {
+    position: absolute;
+    border: 1px solid #eee; /* Color del borde de las celdas */
+  }
+
+  .cell.CV {
+    background-color: red;
+  }
+  
+  .cell.Proyectos {
+    background-color: yellow;
+  }
+  
+  .cell.Contacto {
+    background-color: blue;
+  }
+  
+  
+  .snake {
+    background-color: #4caf50; /* Color de la serpiente */
+  }
+  
+  .food {
+    background-color: #f44336; /* Color de la comida */
+  }
+  
+  .game-over {
+    background-color: rgba(255, 0, 0, 0.5); /* Color de fondo del mensaje de Game Over */
+  }
+  
+  /* Estilos opcionales para centrar el mensaje de Game Over */
+  .game-over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff; /* Color del texto */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
